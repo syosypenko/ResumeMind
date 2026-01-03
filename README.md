@@ -2,7 +2,11 @@
 
 ResumeMind is a modern, AI-powered resume builder that helps professionals create stunning, ATS-optimized resumes in real-time. Powered by Google's Gemini API, it provides intelligent writing assistance, content enhancement, and career-focused insights.
 
-**Live Demo**: [https://cv-ai-builder-66990778510.us-west1.run.app/](https://cv-ai-builder-66990778510.us-west1.run.app/)
+<img width="1448" height="675" alt="Screenshot 2026-01-03 at 01 19 36" src="https://github.com/user-attachments/assets/fe55cc19-1f16-465c-b773-34f3d43238ae" />
+
+<img width="1420" height="676" alt="Screenshot 2026-01-03 at 01 18 04" src="https://github.com/user-attachments/assets/75efd820-7a2e-484d-a483-c85f3f39219b" />
+
+
 
 ## ✨ Professional Features
 
