@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  resume-mind-builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - API_KEY=${API_KEY}
+    image: resume-mind-builder:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - API_KEY=${API_KEY}
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+# To run locally:
+# 1. Create a .env file with your API_KEY
+# 2. Run: docker-compose up --build
